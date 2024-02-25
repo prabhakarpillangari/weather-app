@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url('w3.jpg');
+    height: 45vh;
+    background-size: cover;
+    background-position:center;
+    border-radius: 15px;
+}
+.temphead h1{
+    margin-top: 20px;
+    color: rgb(65,88,208);
+    text-align: center;
+    font-size: 40px;
+}
+.temphead input{
+    height: 30px;
+    width: 400px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    outline: none;
+    padding: 10px 3px;
+    color: white;
+}
+.temphead{
+    text-align: center;
+    color: white;
+}
+.temphead button{
+    color: white;
+    background-color:rgb(65,88,208);
+    padding: 12px 35px;
+    margin-left: 20px;
+    border-radius: 3px;
+    border: none;
+}
+.tempinfo{
+    background: url('w1.jpg');
+    height: 45vh;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    text-align: end;
+}
+.tempdiv{
+    width:40%;
+}
+.tempcontainer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.tempinfo{
+    padding-right: 70px;
+    align-items: center;
+}
+.tempinfo{
+color: white;
+}

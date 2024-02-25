@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.weatherApp {
+    background-image: url('img4.jpg');
+    height: 100vh;
+    background-size: cover;
+    object-position: center;
+}
+.title {
+    text-align: center;
+    color: white;
+}
+.title h1 {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+.title input{
+    height: 30px;
+    width: 400px;
+    padding: 0px 10px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    outline: none;
+    margin-top: 20px;
+}
+.title button{
+ padding: 12px 150px;
+ color: white;
+ background-color:cornflowerblue;
+ border-radius: 5px;
+ border: none;
+ margin-top: 20px;
+}
+.time {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.weatherinfo{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('img3.jpg');
+    height: 45vh;
+    background-size: cover;
+    background-position:center;
+    border-radius: 15px;
+}
+.weatherdiv{
+    width: 27%;
+}
+.weatherDivContainer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+
